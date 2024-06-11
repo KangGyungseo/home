@@ -18,39 +18,42 @@ header{
      font-family: 'Diphylleia-Regular';
 }
 
-section{
-     width: calc(100vw / 3);
-     height: 100vh;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center; 
-     overflow: hidden;
-}
-
-article{
+.indexarticle{
      display: flex;
 }
 
-
-
-}
 
 .textsection{
      display: flex;
      justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+     width: 1000px;
+}
+
+
+
+.textsection1{
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
      align-items: center;
-     width: 500px;
+     width: 1000px;
+     
 }
 
 .textarticle{
      display: flex;
+     ustify-content: center;
+     align-items: center;
+     flex-direction: column;
 }
 
 img{
      width: 300px;
      height: 400px;
      border-radius: 50px;
+     padding: 10px;
 }
 
 
@@ -60,10 +63,17 @@ img{
 
 .text:hover {
      border-radius: 300px;
+
 }
 
 .text{
      background-color: #EEEEEE;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 
 }
 
@@ -72,6 +82,12 @@ img{
      background-repeat: no-repeat;    
      background-position: center;
      background-size: 100vw auto;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .textimage1{
@@ -80,29 +96,110 @@ img{
 
 .text2{
      background-color: #373A40;
+     width: calc(100vw / 3);
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.imagearticle{
+     display: flex;
+     ustify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.imagesection{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 1000px;
+}
+
+.imagesection1{
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+     align-items: center;
+     width: 1000px;
 }
 
 .image{
-     background-color: #028391;
+     background-color: #543310;
+     width: calc(100vw / 3);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .image1{
-     background-color: #F6DCAC;
+     background-color: #6F4E37;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .image2{
-     background-image: url("img/posters.jpg");
+     background-image: url("img/image.jpg");
      background-repeat: no-repeat;    
      background-position: center;
      background-size: 100vw auto;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .image1:hover {
      border-radius: 300px;
 }
 
+.colorbody{
+     background-color: #FFDD95;
+}
+
+.colorarticle{
+     display: flex;
+     flex-direction: column;
+     ustify-content: center;
+     align-items: center;
+     border: double 3px gray;
+     border-radius: 50px;
+     padding: 20px;
+}
+
+
+
+.colorsection1{
+     display: flex;
+     flex-direction: rows;
+     
+}
+
+.colorsection2{
+     display: flex;
+     flex-direction: row-reverse;
+ 
+}
+
 .color{
-     background-color: #2A629A;
+     background-color: #FFDD95;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .color:hover {
@@ -114,10 +211,22 @@ img{
      background-repeat: no-repeat;    
      background-position: center;
      background-size: 100vw auto;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .color2{
-     background-color: #FFA62F;
+     background-color: #711DB0;
+     width: calc(100vw / 3);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .shape{
@@ -125,14 +234,32 @@ img{
      background-repeat: no-repeat;    
      background-position: center;
      background-size: 100vw auto;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .shape1{
      background-color: #AF8F6F;
+     width: calc(100vw / 3);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .shape2{
      background-color: #C7B7A3;
+     width: calc(100vw / 2);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .shape2:hover {
@@ -160,7 +287,7 @@ img{
 
      .color1{
           background-image: none;
-          background-color: #FFFDB5;
+          background-color: white;
      }
 
      .shape{
@@ -188,48 +315,35 @@ img{
           align-items: center;
      }
 
-     .textsection{
-          isplay: flex;
+     .textsection, .textsection1{
+          display: flex;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
-          flex-direction: row;
+          width: 500px;
+     }
+
+     .imagesection, .imagesection1{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 500px;
+     }
+
+     .colorsection, .colorsection1,.colorsection2{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           width: 500px;
      }
 }
 
-.container {
-            width: 300px;
-            height: 500px;
-            position: relative;
-     }
-
-img {
-            width: inherit;
-            height: inherit;
-            object-fit: cover;
-     }
-
-.overlay {
-       position: absolute;
-       top: 0;
-       left: 0;
-       width: inherit;
-       height: inherit;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       background: rgb(0, 0, 0, 0.5);
-       opacity: 0;
-       transition: opacity 0.2s;
-       border-radius: 50px;
-}
-
-.container:hover .overlay {
-       opacity: 1;
-}
 
 p{
-     color: white;
+     color: black;
+     padding: 50px; 
 }
 
 .back{
@@ -243,3 +357,4 @@ p{
 a:hover {
      color: gray;
 }
+
