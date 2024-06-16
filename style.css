@@ -2,6 +2,8 @@
      line-height: 2;
      word-break: keep-all;
      text-decoration: none;
+     margin: 0;
+     padding: 0;
 }
 
 a{
@@ -51,9 +53,7 @@ header{
 
 img{
      width: 300px;
-     height: 400px;
-     border-radius: 50px;
-     padding: 10px;
+     height: 400px;    
 }
 
 
@@ -78,7 +78,7 @@ img{
 }
 
 .text1{
-     background-image: url("img/text1.jpg");
+     background-image: url("img/text.jpg");
      background-repeat: no-repeat;    
      background-position: center;
      background-size: 100vw auto;
@@ -164,32 +164,228 @@ img{
      border-radius: 300px;
 }
 
-.colorbody{
-     background-color: #FFDD95;
-}
 
 .colorarticle{
      display: flex;
-     flex-direction: column;
-     ustify-content: center;
+     justify-content: center;
      align-items: center;
-     border: double 3px gray;
-     border-radius: 50px;
-     padding: 20px;
 }
 
-
-
-.colorsection1{
+.colorsection {
+     width: calc(100vw / 5);
      display: flex;
-     flex-direction: rows;
-     
+     flex-direction: row;
+     justify-content: center;
+     align-items: center; 
 }
 
-.colorsection2{
+.can{
+     background-image: url("img/can.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
      display: flex;
-     flex-direction: row-reverse;
- 
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.mc{
+     background-image: url("img/mc.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.marvel{
+     background-image: url("img/marvel.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.red, .red2{
+     background-color: #FFB1B1;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.o{
+     background-image: url("img/o.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.starbucks{
+     background-image: url("img/starbucks.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.oliveyoung{
+     background-image: url("img/oliveyoung.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.green,.green2{
+     background-color: #D8EFD3;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.chew{
+     background-image: url("img/chew.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.juice{
+     background-image: url("img/juice.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.tea{
+     background-image: url("img/tea.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.joy{
+     background-image: url("img/joy.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.sad{
+     background-image: url("img/sad.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.mad{
+     background-image: url("img/mad.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.inside{
+     background-color: lightgray;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.caution{
+     background-image: url("img/caution.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.caution2{
+     background-color: #FFDE95;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
 }
 
 .color{
@@ -218,6 +414,7 @@ img{
      align-items: center; 
      overflow: hidden;
 }
+
 
 .color2{
      background-color: #711DB0;
@@ -266,6 +463,224 @@ img{
      border-radius: 300px;
 }
 
+.formarticle{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.formsection {
+     width: calc(100vw / 5);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center; 
+}
+
+.blue{
+      background-color: #A7E6FF;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.arrow{
+     background-image: url("img/arrow.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.bicycle{
+     background-image: url("img/bicycle.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.bus{
+     background-image: url("img/bus.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.beforego{
+     background-color: #D8EFD3;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.go{
+     background-image: url("img/go.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.beforestop{
+     bbackground-color: #FFCBCB;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.stop{
+     background-image: url("img/stop.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.formp{
+     background-color: #;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+
+.in{
+     background-image: url("img/in.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.out{
+     background-image: url("img/out.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.smoking{
+     background-image: url("img/smoking.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.apple{
+     background-image: url("img/apple.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size:30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.g{
+     background-color: gray;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.lg{
+     background-color: lightgray;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.stairs{
+     background-image: url("img/stairs.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
+.cautionn{
+     background-image: url("img/cautionn.jpg");
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: 30vw auto;
+     width: calc(100vw / 5);
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     overflow: hidden;
+}
+
 @font-face {
     font-family: 'Diphylleia-Regular';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/Diphylleia-Regular.woff2') format('woff2');
@@ -273,28 +688,8 @@ img{
     font-style: normal;
 }
 
-@media screen and (max-width: 900px){
-     
-     .text1{
-          background-color: white;
-          background-image: none;
-     }
-
-     .image2{
-          background-image: none;
-          background-color: #01204E;
-     }
-
-     .color1{
-          background-image: none;
-          background-color: white;
-     }
-
-     .shape{
-          background-image: none;
-          background-color: #ECB176;
-     }
-
+@media screen and (max-width: 900px) and (max-aspect-ratio: 4/3){
+    
      .imagearticle{
           display: flex;
           flex-direction: column;
@@ -331,13 +726,21 @@ img{
           width: 500px;
      }
 
-     .colorsection, .colorsection1,.colorsection2{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 500px;
+     .red,.mc,.red2,.o,.marvel,.can,.green,.green2,
+     .starbucks,.oliveyoung,.caution,.caution2,
+     .chew,.juice,.colorsection,.tea,.joy,.sad,.mad{
+          background-size: auto 50vh;
      }
+
+     .cautionn,.stop,.bicycle,.go,.arrow,.smoking,.bus,.stairs,
+     .in,.out,.apple{
+          background-size: auto 50vh;
+     }
+
+     p{
+          font-size: 5px;
+     }
+
 }
 
 
